@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <p class="h3 text-center text-primary">Registration Form</p>
+            <form action="">
+                <div class="mb-3">
+                    <label for="fname" class="form-label fw-bold" >First Name</label>
+                    <input type="text" name="fname" id="fname" class="form-control" placeholder="Enter your first name" required>
+                </div>
+                <div class="mb-3">
+                     <label for="lname" class="form-label fw-bold" >Last Name</label>
+                    <input type="text" name="lname" id="lname" class="form-control" placeholder="Enter your last name" required>
+                </div>
+                <div class="mb-3">
+                     <label for="uname" class="form-label fw-bold" >User Name</label>
+                    <input type="text" name="uname" id="uname" class="form-control" placeholder="Enter username" required> 
+                </div>
+                 <div class="mb-3">
+                    <label for="pass" class="form-label fw-bold" >Password</label>
+                    <input type="password" name="pass" id="pass" class="form-control" placeholder="Enter Password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold" >Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Example123@gmail.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="resume" class="form-label fw-bold" >Resume</label>
+                    <input type="file" name="resume" id="resume" class="form-control" placeholder="Upload Resume" required>
+                </div>
+                <div class="mb-3">
+                     <label for="gender" class="form-label fw-bold">Gender</label>
+                     <br>
+                     <input type="radio" name="gen" id="gender" class="form-check-input">
+                     <label for="gender" class="form-check-label">Male</label>
+                     <br>
+                     <input type="radio" name="gen" id="gender" class="form-check-input">
+                     <label for="gender" class="form-check-label">Female</label>
+                </div>
+                <div class="mb-3">
+                    <label for="skill" class="form-label fw-bold">Skills</label>
+                    <br>
+                    <input type="checkbox" name="skill" id="skill" class="form-check-input">Java
+                    <input type="checkbox" name="skill" id="skill" class="form-check-input">php
+                    <input type="checkbox" name="skill" id="skill" class="form-check-input">C++
+                    <input type="checkbox" name="skill" id="skill" class="form-check-input">React
+                </div>
+                <div class="mb-3">
+                    <label for="city" class="form-lable fw-bold">City</label>
+                    <select name="city" id="city" class="form-select">
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Thane">Thane</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Noida">Noida</option>
+                    </select>
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary">Submit Form</button>
+                </div>
+                <br>
+                 <div class="d-grid">
+                    <button class="btn btn-danger">Cancel Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
